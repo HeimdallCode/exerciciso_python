@@ -20,16 +20,16 @@
 # Não são bissextos todos os demais anos.
 
 
-
-ano =int(input('Informe ano: '))
+ano = int(input('Informe ano: '))
 
 resto = ano % 400
 
 print(resto)
 
+
 def soma(x, y):
+    """Retorna a soma de 2 numeros."""
     return x + y
 
 
-print ( soma(89,1))
-
+print(soma(89, 1))
