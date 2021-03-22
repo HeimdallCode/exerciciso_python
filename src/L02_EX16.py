@@ -37,8 +37,7 @@ else:
     c = float(input('Informe o valor de c: '))
     delta = (pow(b, 2)) - 4 * a * c
     if delta < 0:
-        #print(f'\nValor do delta {delta} é negativo, não possui raizes')
-        print('teste')
+        print(f'\nValor do delta {delta} é negativo, não possui raizes')
     else:
         if delta == 0:
             print(f'\nValor do delta {delta} - uma raiz')
