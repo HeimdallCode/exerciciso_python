@@ -19,12 +19,12 @@
 # de 400, p.ex: 1996, 2000, 2004, 2008, 2012, 2016, 2020...
 # Não são bissextos todos os demais anos.
 
+ano = int(input('\nInforme ano: '))
 
-ano = int(input('Informe ano: '))
-
-resto = ano % 400
-
-print(resto)
+if ano % 400 == 0 or (ano % 4 == 0 and ano % 100 != 0):
+    print('é ano bissexto')
+else:
+    print('não é ano bissexto')
 
 
 def soma(x, y):
