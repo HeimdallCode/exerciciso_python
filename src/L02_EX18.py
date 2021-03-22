@@ -20,9 +20,6 @@
 # Não são bissextos todos os demais anos.
 
 
-ano = int(input('Informe ano: '))
+ano = int(input('\nInforme ano: '))
 
 resto = ano % 400
-
-gfhfg
-h
