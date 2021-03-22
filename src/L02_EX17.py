@@ -25,11 +25,3 @@ if ano % 400 == 0 or (ano % 4 == 0 and ano % 100 != 0):
     print('é ano bissexto')
 else:
     print('não é ano bissexto')
-
-
-def soma(x, y):
-    """Retorna a soma de 2 numeros."""
-    return x + y
-
-
-print(soma(89, 1))
