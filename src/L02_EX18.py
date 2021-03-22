@@ -12,4 +12,3 @@
 n = (input("\nDigite numero entre 0 - 999: "))
 
 x = int(len(n))
-a = 0
