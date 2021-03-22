@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 """Resolução Lista 02 Exercicio 17 Python Brasil (J.Siqueira 03/21)."""
 
 # https://wiki.python.org.br/ListaDeExercicios

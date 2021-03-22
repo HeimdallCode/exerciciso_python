@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 """Resolução Lista 02 Exercicio 17 Python Brasil (J.Siqueira 03/21)."""
 
 # Faça um Programa que leia um número inteiro menor que 1000 e imprima a

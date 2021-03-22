@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 """Resolução Lista 02 Exercicio 16 Python Brasil (J.Siqueira 03/21)."""
 
 # https://wiki.python.org.br/ListaDeExercicios
@@ -35,7 +37,8 @@ else:
     c = float(input('Informe o valor de c: '))
     delta = (pow(b, 2)) - 4 * a * c
     if delta < 0:
-        print(f'\nValor do delta {delta} é negativo, não possui raizes')
+        #print(f'\nValor do delta {delta} é negativo, não possui raizes')
+        print('teste')
     else:
         if delta == 0:
             print(f'\nValor do delta {delta} - uma raiz')
