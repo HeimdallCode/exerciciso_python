@@ -11,6 +11,31 @@
 # Testar com: 326, 300, 100, 320, 310,305, 301, 101, 311, 111, 25, 20, 10, 21,
 #             11, 1, 7 e 16
 
-n = (input("\nDigite numero entre 0 - 999: "))
 
-x = int(len(n))
+n = str(input("\nDigite numero entre 0 - 999: "))
+
+a = len(n)
+c_s = 's'
+d_s = 's'
+u_s = 's'
+
+if a == 3:
+    if n[0] == '1':
+        c_s = ''
+        if n[1] == '1':
+            d_s = ''
+            if n[2] == '1':
+                u_s = ''
+    print(f'{n[0]} centena{c_s}, {n[1]} dezena{d_s} e {n[2]} unidade{u_s}.')
+elif a == 2:
+    if n[0] == '1':
+        d_s = ''
+        if n[1] == '1':
+            u_s = ''
+    print(f'{n[0]} dezena{d_s} e {n[1]} unidade{u_s}.')
+elif a == 1:
+    if n[0] == '1':
+        u_s = ''
+    print(f'{n[0]} unidade{u_s}.')
+else:
+    (print('Valor inválido!'))
