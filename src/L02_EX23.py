@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""Resolução Lista 02 Exercicio 22 Python Brasil (J.Siqueira 03/21)."""
+"""Resolução Lista 02 Exercicio 23 Python Brasil (J.Siqueira 03/21)."""
 
 # Faça um Programa que peça um número inteiro e determine se ele é
 # par ou impar. Dica: utilize o operador módulo (resto da divisão).

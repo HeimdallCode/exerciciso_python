@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""Resolução Lista 02 Exercicio 20 Python Brasil (J.Siqueira 03/21)."""
+"""Resolução Lista 02 Exercicio 21 Python Brasil (J.Siqueira 03/21)."""
 
 # Faça um Programa para um caixa eletrônico. O programa deverá perguntar ao
 # usuário a valor do saque e depois informar quantas notas de cada valor serão
