@@ -2,12 +2,12 @@
 
 """Resolução Lista 02 Exercicio 23 Python Brasil (J.Siqueira 03/21)."""
 
-# Faça um Programa que peça um número inteiro e determine se ele é
-# par ou impar. Dica: utilize o operador módulo (resto da divisão).
+# Faça um Programa que peça um número e informe se o número é inteiro
+# ou decimal. Dica: utilize uma função de arredondamento.
 
-n = int(input('Digite um numero: '))
+n = float(input('Digite um numero: '))
 
-if n % 2 == 0:
-    print(f'\n{n} é numero par')
+if round(n) % n == 0:
+    print('\nnumero inteiro')
 else:
-    print(f'\n{n} é numero impar')
+    print('\nnumero decimal')
