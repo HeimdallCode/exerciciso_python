@@ -60,4 +60,4 @@ if quantidade >= 0:
     print(f"Valor total\t\t\t{valor:.2f}")
     print(f"Forma de pagamento\t\t{tipo_pagamento}")
     print(f"Desconto 5%\t\t\t{desconto:.2f}")
-    print(f"Valor a pagar\t\t\t{((valor) - desconto):.2f}")
+    print(f"Valor a pagar\t\t\t{((valor) - desconto):.2f}\n")

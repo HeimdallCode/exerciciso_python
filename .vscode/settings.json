@@ -3,4 +3,5 @@
     "editor.fontSize": 18,
     "editor.minimap.enabled": false,
     "python.languageServer": "Jedi"
+    
 }
