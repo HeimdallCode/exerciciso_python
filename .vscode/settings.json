@@ -2,6 +2,7 @@
     "python.pythonPath": "venv/bin/python",
     "editor.fontSize": 18,
     "editor.minimap.enabled": false,
-    "python.languageServer": "Jedi"
+    "python.languageServer": "Pylance",
+    "python.linting.pylintEnabled": true
     
 }
