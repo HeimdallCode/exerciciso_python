@@ -15,13 +15,13 @@
 # Triângulo Isósceles: quaisquer dois lados iguais;
 # Triângulo Escaleno: três lados diferentes;
 
-a = float(input('Digite medida a: '))
-b = float(input('Digite medida b: '))
-c = float(input('Digite medida c: '))
+a = float(input("Digite medida a: "))
+b = float(input("Digite medida b: "))
+c = float(input("Digite medida c: "))
 
 if a == b == c:
-    print('\nTriângulo Equilátero')
+    print("\nTriângulo Equilátero")
 elif a == b != c or a != b == c or a == c:
-    print('\nTriângulo Isósceles')
+    print("\nTriângulo Isósceles")
 else:
-    print('\nTriângulo Escaleno')
+    print("\nTriângulo Escaleno")
