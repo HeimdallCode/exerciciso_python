@@ -18,7 +18,7 @@
 # tipo de pagamento, valor do desconto e valor a pagar.
 
 
-quantidade = float(input("Informe quantos [kg] de carne...............: "))
+quantidade = float(input("Informe quantos [kg] de carne..............: "))
 tipo_produto = input("Qual tipo [F]ile, [A]lcatra, [P]icanha......: ")
 tipo_pagamento = input("Qual forma de pagamento [D]inheiro, [C]artão: ")
 
