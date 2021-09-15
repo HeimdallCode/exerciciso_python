@@ -63,3 +63,4 @@ if quantidade >= 0:
     print(f"Valor a pagar\t\t\t{((valor) - desconto):.2f}\n")
 
 print("cx")
+print("xx")

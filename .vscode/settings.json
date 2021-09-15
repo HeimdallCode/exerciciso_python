@@ -1,6 +1,6 @@
 {
     "python.pythonPath": "venv/bin/python",
-    "editor.fontSize": 18,
+    "editor.fontSize": 14,
     "editor.minimap.enabled": false,
     "python.languageServer": "Pylance",
     "python.linting.pylintEnabled": true

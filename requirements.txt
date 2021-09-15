@@ -19,7 +19,6 @@ nodeenv==1.5.0
 packaging==20.9
 parso==0.8.2
 pathspec==0.8.1
-pkg_resources==0.0.0
 pluggy==0.13.1
 pre-commit==2.11.1
 py==1.10.0
