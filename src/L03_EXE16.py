@@ -1,0 +1,21 @@
+# -*- coding: utf-8 -*-
+
+"""Resolução Lista 3 Exercicio 16 Python Brasil (J.Siqueira 03/21)."""
+
+# A série de Fibonacci é formada pela seqüência 0,1,1,2,3,5,8,13,21,34,55,
+# Faça um programa que gere a série até que o valor seja maior que 500.
+
+
+j = 0
+i = 1
+
+while True:
+    t = i + j
+    i = j
+    j = t
+
+    if i <= 500:
+        print(i, end=", ")
+    else:
+        break
+print("\n")

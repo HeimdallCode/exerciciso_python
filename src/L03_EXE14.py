@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""Resolução Lista 3 Exercicio 12 Python Brasil (J.Siqueira 03/21)."""
+"""Resolução Lista 3 Exercicio 14 Python Brasil (J.Siqueira 03/21)."""
 
 # Faça um programa que peça 10 números inteiros, calcule e mostre
 # a quantidade de números pares e a quantidade de números impares.
@@ -15,4 +15,4 @@ for k in range(10):
     else:
         i += 1
 
-print(f"Total de numeros impares {i}, Total de numeros pares {p}")
+print(f"\nTotal de numeros impares {i}, Total de numeros pares {p}\n")
