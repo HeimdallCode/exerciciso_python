@@ -6,12 +6,12 @@
 # ... Faça um programa capaz de gerar a série até o n−ésimo termo.
 
 n = int(input("\nInforme numero para gerar a sequencia de Fibonacci: "))
-j = 0
-i = 1
+a = 0
+s = 1
 
-for k in range(n):
-    t = i + j
-    i = j
-    j = t
-    print(i, end=", ")
+for k in range(n + 1):
+    t = s + a
+    s = a
+    a = t
+    print(s, end=", ")
 print("\n")

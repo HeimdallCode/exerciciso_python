@@ -14,8 +14,9 @@ while True:
     i = j
     j = t
 
-    if i <= 500:
-        print(i, end=", ")
+    if i <= 2500:
+        print(f"{i}", end=", ")
     else:
         break
+
 print("\n")
