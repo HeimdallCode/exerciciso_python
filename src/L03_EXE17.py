@@ -19,10 +19,9 @@
 # 10    3.628.800
 
 
-
-n  = int (input('\nInforme um numero: '))
+n = int(input('\nInforme um numero: '))
 f = 1
 
-for i in range(2, n+1):
+for i in range(2, n + 1):
     f = f * i
-print(f'Fatorial [{n}!]: {f}')
+print(f'\033[1;32mFatorial [{n}!]: {f}\033[1;m\n')
