@@ -6,7 +6,7 @@
 # caso o número não seja primo, por quais número ele é divisível.
 
 # Existem 168 números primos positivos menores do que 1000. 
-#  
+
 # São eles: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53,
 # 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131,
 # 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199,
@@ -21,37 +21,21 @@
 # 937, 941, 947, 953, 967, 971, 977, 983, 991, 997
 # (sequência A000040 na OEIS).
 
-"""
-n = input("Digite um numero: ")
-j = int(n)
-d = 0
-k = int(n[-2::])
+import os
+os.system('clear')
 
-if n[-1] in ("24680") and n != "2":
-    print ("ultimo digito é %s numero par, portanto não é primo" % (n[-1]))
-else:
-    if k % 5 == 0 and n != "5":
-        print ("%s é multiplo de 5, portanto não é primo" % n[-2::])
-    else:
-        for i in range(2, j+1):
-            if j % i == 0:
-                print ("divisivel por", i)
-                d += 1
-        if d > 1:
-            print ("\n %s não é primo" % n)
-"""
 
 n = int(input('\nDigite um numero: '))
+k = 0
 
-k = 0 
-
-for i in range(2,n):
-    if n%i == 0:
-        print(f'{n} divisivel por {i}')
-        k +=1
-
-if k == 0:
-    print(f'\033[1;32m{n} é primo\033[1;m\n')
-else:
+if str(n) in '01':
     print(f'\033[1;31m{n} não é primo\033[1;m\n')
-
+else:
+    for i in range(2,n):
+        if n%i == 0:
+            print(f'{n} divisivel por {i}')
+            k +=1
+    if k == 0:
+        print(f'\033[1;32m{n} é primo\033[1;m\n')
+    else:
+        print(f'\033[1;31m{n} não é primo\033[1;m\n')
