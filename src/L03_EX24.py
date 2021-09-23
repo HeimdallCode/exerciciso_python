@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""Resolução Lista 3 Exercicio 23 Python Brasil (J.Siqueira 03/21)."""
+"""Resolução Lista 3 Exercicio 24 Python Brasil (J.Siqueira 03/21)."""
 
 # Faça um programa que calcule o mostre a média aritmética de N notas.
 

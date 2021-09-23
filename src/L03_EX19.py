@@ -6,7 +6,7 @@
 
 import random
 
-menor = 1000000000
+menor = 10000
 maior = 0
 soma = 0
 

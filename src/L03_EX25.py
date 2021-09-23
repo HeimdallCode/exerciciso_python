@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""Resolução Lista 3 Exercicio 23 Python Brasil (J.Siqueira 03/21)."""
+"""Resolução Lista 3 Exercicio 25 Python Brasil (J.Siqueira 03/21)."""
 
 # Faça um programa que peça para n pessoas a sua idade, ao final o 
 # programa devera verificar se a média de idade da turma varia entre 
@@ -9,9 +9,11 @@
 
 # g1    jovem      0 - 25
 # g2    adulto     26 - 60
-# g3    idoso      >60  
+# g3    idoso      >60
+
 
 import os, time
+
 os.system('clear')
 
 inicio = time.time()
@@ -26,11 +28,11 @@ for i in range(n):
 
 m = s/n
 if m > 0 and m < 25:
-    print('Grupo Jovem')
+    print(f'Pela média de {m}, o grupo é Jovem')
 if m > 26 and m < 60:
-    print('Grupo Adulto')
+    print(f'Pela média de {m}, o grupo é Adulto')
 if m >= 60:
-    print('Grupo Idoso')
+    print(f'Pela média de {m}, o grupo é Idoso')
     
 termino = time.time()
 print(f'\n\033[1;44mTempo de Execução: {termino - inicio:.1f} segundos\033[1;m\n')
